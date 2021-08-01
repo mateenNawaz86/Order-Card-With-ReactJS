@@ -1,0 +1,32 @@
+.order-container {
+  padding: 1rem 1.5rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.order-container h1 {
+  color: orange;
+  user-select: none;
+  margin-bottom: 1rem;
+}
+
+.smile {
+  transform: scale(2);
+  color: orange;
+}
+
+@media (max-width: 390px) {
+  .order-container h1 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .order-container h1 {
+    font-size: 10px;
+  }
+}
